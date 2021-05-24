@@ -15,7 +15,11 @@
 .container {
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   height: 100vh;
+=======
+  height:100vh;
+>>>>>>> 81b583a3f267b51edb3c4db15bbc80e08746e3f0
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
