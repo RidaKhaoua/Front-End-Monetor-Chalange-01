@@ -33,9 +33,10 @@
 
 .container .content {
   /* border: 1px solid yellow; */
-  width: 80%;
+  width: 78%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: 391px;
 }
 @media (max-width: 375px) {
   .container .content {
@@ -106,7 +107,7 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin-top: 40px;
+  margin-top: 34px;
   padding: 12px 0px;
 }
 
@@ -133,7 +134,7 @@
 
 .container .content .first-div .statistique p span:first-child {
   font-family: "Inter";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.6;
 }
@@ -162,6 +163,20 @@
   .container .content .second-div {
     grid-area: 1 / 1 / 1 / 1;
   }
+}
+
+.container .content .second-div {
+  position: relative;
+}
+
+.container .content .second-div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(277, 64%, 61%, 0.4);
 }
 
 .container .content img {
