@@ -36,7 +36,7 @@
   width: 78%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-template-rows: 391px;
+  grid-template-rows: 377px;
 }
 @media (max-width: 375px) {
   .container .content {
