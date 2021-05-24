@@ -37,7 +37,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
-@media (max-width: 750px) {
+@media (max-width: 375px) {
   .container .content {
     padding: 5px;
     width: 70%;
